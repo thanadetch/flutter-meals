@@ -15,3 +15,4 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # flutter-meals
+![Simulator Screen Shot - iPhone 14 - 2023-01-19 at 15 36 17](https://user-images.githubusercontent.com/29934850/213393672-30091f13-222a-4a14-8917-4cc28d767035.png)
