@@ -84,6 +84,11 @@ class _MyAppState extends State<MyApp> {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
+        switchTheme:  SwitchThemeData(
+          thumbColor: MaterialStateProperty.all(Colors.amber),
+            trackColor: MaterialStateProperty.resolveWith((states) =>
+            states.contains(MaterialState.selected) ? Colors.amber : null),
+        ),
         colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.pink)
             .copyWith(secondary: Colors.amber),
         canvasColor: const Color.fromRGBO(250, 254, 229, 1),
